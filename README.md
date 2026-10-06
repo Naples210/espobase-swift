@@ -4,8 +4,8 @@ The Espobase client for iOS, macOS, tvOS, watchOS and server-side Swift: your pr
 Storage and edge functions, with `async`/`await`. No dependencies (URLSession for HTTP, plain Swift for hashing).
 Requires Swift 5.9+; iOS 15, macOS 12, tvOS 15 or watchOS 8.
 
-> Status: version 0.1.0, not published yet. SwiftPM installs from a repository whose root holds `Package.swift`, so
-> this folder is published to its own repository by the owner (`git subtree split --prefix=packages/swift`).
+> Status: version 0.1.0. SwiftPM installs from a repository whose root holds `Package.swift`, so this package is
+> published to its own repository (`github.com/Naples210/espobase-swift`) from the Espobase monorepo's `packages/swift`.
 > Realtime (WebSockets) is not in this version: use the REST API, or the JavaScript client for realtime.
 
 ## Install
@@ -13,7 +13,7 @@ Requires Swift 5.9+; iOS 15, macOS 12, tvOS 15 or watchOS 8.
 Xcode: File › Add Package Dependencies…, then the repository URL. Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/<owner>/espobase-swift", from: "0.1.0")
+.package(url: "https://github.com/Naples210/espobase-swift", from: "0.1.0")
 ```
 
 ## Create a client
